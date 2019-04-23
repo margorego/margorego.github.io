@@ -1,0 +1,145 @@
+.container {display: grid;
+    grid-template-areas: 
+    "m m m m m m m m m m m m"
+    "m m m m m m m m m m m m"
+    "f f f f f f f f f f f f";}
+
+.main {grid-area: m;
+background-color: white;
+width: 1700px;
+height:900px;
+font-family: 'Poppins', sans-serif;
+font-weight:lighter;
+/* background-image: url(backgroundImage.svg); */
+/* background-position: center; */} 
+
+svg {-webkit-animation-name: flash;
+-webkit-animation-duration: 8s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: normal;
+-webkit-animation-fill-mode:forwards;
+-webkit-animation-timing-function:steps(1, end);
+margin-top:-845px;
+width:1700px;
+height:900px;
+/* z-index: -1; */ }
+
+/* #One {animation: flash 3s infinite alternate;
+-webkit-animation: flash 3s infinite alternate;}
+
+@keyframes flash {
+0% { opacity: 1; } 
+50% { opacity: .1; } 
+100% { opacity: 1; }
+5% {fill:transparent;}
+95% {fill:#C46A6A;} 
+100% {fill:transparent;}
+}
+#Two {animation: color2 4s linear infinite;
+-webkit-animation: color2 4s linear infinite;} 
+
+@keyframes color2 {
+5% {fill:transparent} 
+95% {fill:#DBB647;}
+100% {fill:white;}  }
+ 
+
+#Three {animation: color3 5s linear infinite;
+-webkit-animation: color3 5s linear infinite;}
+
+@keyframes color3 { 
+0% {fill:white;}
+100% {fill:#566D79;}} 
+
+#Four {animation: color4 6s linear infinite;
+-webkit-animation: color4 6s linear infinite;}
+
+@keyframes color4 {
+0% {fill:white;}
+100% {fill:#69A1A5;}}  */
+
+.footer {grid-area: f;
+background-color: rgb(129, 165, 199);
+height: 100px;
+margin-top: -70px;} 
+
+.resume {font-family: 'Poppins', sans-serif;
+font-size:3em;
+margin-left: 500px;
+margin-top: -70px;
+color:white;
+animation: color 10s linear infinite;
+-webkit-animation:color 10s linear infinite;}
+
+.resume:hover {animation: bounce 2s;
+        -webkit-animation: bounce 2s;}
+
+.work {font-family: 'Poppins', sans-serif;
+font-size:3em; 
+margin-left: 950px;
+margin-top:-70px;
+color:white;
+animation: color 10s linear infinite;
+-webkit-animation:color 10s linear infinite;}
+
+.work:hover {animation: bounce 2s;
+    -webkit-animation: bounce 2s;}
+
+.contactme {font-family: 'Poppins', sans-serif;
+    font-size:3em;
+    margin-left: 1300px;
+    margin-top:-70px;
+    color:white;
+    animation: color 10s linear infinite;
+    -webkit-animation:color 10s linear infinite;}
+
+.contactme:hover {animation: bounce 2s;
+        -webkit-animation: bounce 2s;}
+
+.aboutme {font-family: 'Poppins', sans-serif;
+font-size:3em;
+margin-left: 70px;
+margin-top:10px;
+color:white;
+animation: color 10s linear infinite;
+-webkit-animation:color 10s linear infinite;}
+
+.aboutme:hover {animation: bounce 2s;
+        -webkit-animation: bounce 2s;}
+
+.name {font-family: 'Poppins', sans-serif;
+color:black;
+font-size: 12em;
+margin-left: 600px;
+margin-top: 200px;}
+
+.name2 {font-family: 'Poppins', sans-serif;
+color:black;
+font-size: 12em;
+margin-left: 800px;}
+
+/* .image {width: 100px; 
+height:100px;}*/
+
+.border:nth-of-type(4) {fill:#C46A6A;
+                -webkit-animation-delay: 1s;}
+
+.border:nth-of-type(3) {fill:#DBB647;
+                z-index: -2;
+                -webkit-animation-delay: 2s;}
+
+.border:nth-of-type(2) {fill: #566D79;
+                z-index: -3;
+                -webkit-animation-delay: 3s}
+
+.border:nth-of-type(1)  {fill: #69A1A5;
+                z-index: -4;
+                -webkit-animation-delay: 4s}
+
+#one {-webkit-animation-delay: 1s;}
+
+#two {-webkit-animation-delay: 2s;}
+
+#three {-webkit-animation-delay: 3s;}
+
+#four {-webkit-animation-delay: 4s;}

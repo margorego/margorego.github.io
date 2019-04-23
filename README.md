@@ -1,2 +1,2 @@
-# margorego.github.io
-hand coded portfolio site
+# boilerPlate
+basic starting file structure for Umass Dartmouth

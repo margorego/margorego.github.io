@@ -1,0 +1,135 @@
+.container {display: grid;
+    grid-template-areas: 
+    "h h h h h h h l l l h h"
+    "s s m m m m m m m m m m"
+    "f f f f f f f f f f f f";}
+
+.header {grid-area: "h";
+height: 250px;
+width: 1700px;
+background-color:rgb(110, 145, 185);}
+
+.logo {grid-area: "l";
+height: 250px;
+width: 300px;
+background-color: transparent;;
+margin-left: 900px;
+margin-top: -215px;}
+
+.sidebar {grid-area:"s";
+    height: 1000px;
+    width: 500px;
+    margin-left:20px;}
+
+.main {grid-area:"m";
+height: 1400px;
+width: 1700px;
+background-color:white;}
+/* 
+.footer2 {grid-area:"f";
+width: 1700px;
+height: 50px;
+background-color: rgb(110, 145, 185);}  */
+
+.name {padding-left:500px;
+padding-top: 20px;
+align-content:right;}
+
+.whole {margin-left: 550px;
+margin-top: -1030px;}
+
+h1 {font-family: 'Shrikhand', cursive;
+font-size: 40px;
+font-weight: normal;}
+
+h2 {font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-size: 25px;}
+
+p {font-family: 'Montserrat', sans-serif;
+font-size:15px;
+word-spacing: 2px;}
+
+svg {width:260px;
+height:260px;
+animation: fill 10s linear infinite;
+-webkit-animation: fill 10s linear infinite;}
+
+svg:hover {animation: tada 2s;
+   -webkit-animation: tada 2s;}
+
+.one {font-style:italic;}
+
+.two {color:rgb(110, 145, 185);}
+
+#headername  {font-family: 'Shrikhand', cursive;
+        font-size: 50px;
+        font-weight: normal;}
+
+/* .footerinfo {margin-left:20px;} */
+
+.skills {margin-left:300px;
+margin-top:-350px;}
+
+img {width:400px;
+height:400px;
+animation: fill 10s linear infinite;
+-webkit-animation: fill 10s linear infinite;}
+
+img:hover {animation: tada 2s;
+-webkit-animation: tada 2s;}
+
+.indent {padding-left: 15px;}
+
+#aboutme {line-height: 32px;
+  text-align: justify;}
+
+.footer {grid-area: f;
+    background-color: rgb(129, 165, 199);
+    height: 100px;
+    margin-top: 100px;} 
+
+.home {font-family: 'Poppins', sans-serif;
+        font-size:3em;
+        margin-left: 150px;
+        margin-top: -60px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
+        
+.home:hover {animation: bounce 2s;
+                -webkit-animation: bounce 2s;}
+        
+.work {font-family: 'Poppins', sans-serif;
+        font-size:3em; 
+        margin-left: 950px;
+        margin-top:-70px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
+        
+.work:hover {animation: bounce 2s;
+            -webkit-animation: bounce 2s;}
+        
+.contactme {font-family: 'Poppins', sans-serif;
+            font-size:3em;
+            margin-left: 1300px;
+            margin-top:-70px;
+            color:white;
+            animation: color 10s linear infinite;
+            -webkit-animation:color 10s linear infinite;}
+        
+.contactme:hover {animation: bounce 2s;
+                -webkit-animation: bounce 2s;}
+        
+.aboutme {font-family: 'Poppins', sans-serif;
+        font-size:3em;
+        margin-left: 500px;
+        margin-top:-55px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
+        
+.aboutme:hover {animation: bounce 2s;
+                -webkit-animation: bounce 2s;}
+        
