@@ -1,0 +1,107 @@
+.container {display: grid;
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "m m m m m m m m m m m m"
+    "f f f f f f f f f f f f";}
+
+.header {grid-area: h;
+        background-color: rgb(129, 165, 199);
+        width: 1700px;
+        height:150px;}
+
+h1  {color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7em;
+    margin-left: 400px;
+    margin-top: -10px;}
+
+.sticky {color:black;
+        font-family: 'Poppins', sans-serif;
+        position: -webkit-sticky;
+        position: fixed;
+        background-color:rgb(103, 130, 155)
+        top: 0;
+        padding: 50px;
+        font-size: 2em;
+        width: 100px;
+        height: 50px;}
+
+/* TABLE STYLING */
+.main {grid-area: m;
+        height: 800px;
+        margin-top: 50px;}
+
+/* ROW 1 */
+#one  {width: 300px;
+        height: 300px;
+        margin-left: 70px;
+        margin-top: 40px;
+        margin-left: 300px;}
+
+#two {width: 450px;
+        height: 250px;
+        margin-left: 30px;
+        margin-top: 40px;
+        margin-left: 100px;}
+
+/* ROW 2 */
+#four {width: 400px;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: 300px;}
+
+#five {width: 400px;
+        height:300px;
+        margin-left: 30px;
+        margin-top: 40px;
+        margin-left: 100px;}
+
+/* FOOTER and BUTTONS */
+footer {background-color: rgb(129, 165, 199);
+        height: 150;
+        width: 190vh;
+        grid-row: 3 / -1;} 
+
+.resume {font-family: 'Poppins', sans-serif;
+        font-size:3em;
+        margin-left: 500px;
+        margin-top: -70px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
+
+.resume:hover {animation: bounce 2s;
+                -webkit-animation: bounce 2s;}
+
+.aboutme {font-family: 'Poppins', sans-serif;
+            font-size:3em; 
+            margin-left: 950px;
+            margin-top:-70px;
+            color:white;
+            animation: color 10s linear infinite;
+            -webkit-animation:color 10s linear infinite;}
+
+.aboutme:hover {animation: bounce 2s;
+                -webkit-animation: bounce 2s;}
+
+.contactme {font-family: 'Poppins', sans-serif;
+            font-size:3em;
+            margin-left: 1300px;
+            margin-top:-70px;
+            color:white;
+            animation: color 10s linear infinite;
+            -webkit-animation:color 10s linear infinite;}
+
+.contactme:hover {animation: bounce 2s;
+                -webkit-animation: bounce 2s;}
+
+.home {font-family: 'Poppins', sans-serif;
+        font-size:3em;
+        margin-left: 70px;
+        margin-top:10px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
+
+.home:hover {animation: bounce 2s;
+            -webkit-animation: bounce 2s;}

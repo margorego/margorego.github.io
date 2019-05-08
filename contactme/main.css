@@ -5,79 +5,88 @@
     "f f f f f f f f f f f f";}
 
 .header {grid-area: h;
-background-color: rgb(129, 165, 199);
-width: 1700px;
-height:125px;
-font-family: 'Poppins', sans-serif;
-font-size: 7em;}
+        background-color: rgb(129, 165, 199);
+        width: 1700px;
+        height:150px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 7em;}
 
+/* text in header */
 .header1 {margin-top: -20px;
-margin-left: 500px;
-color:white;}
+        margin-left: 500px;
+        color:white;}
 
+/* div around image */
 .image {grid-area: i;
-    width: 500px;
-    height:700px;}
+        width: 500px;
+        height:700px;}
 
 img {width: 400px; 
-height: 600px; 
-margin-top: 50px;
-margin-left:25px;} 
+    height: 600px; 
+    margin-top: 50px;
+    margin-left:25px;} 
 
 .main {grid-area: m;
-background-color: white;
-width: 1200px;
-height: 700px;}
+    background-color: white;
+    width: 1100px;
+    height: 660px;}
 
 .footer {grid-area: f;
-background-color:  rgb(129, 165, 199);
-height: 100px;
-margin-top:5px;}
+    background-color:  rgb(129, 165, 199);
+    height: 100px;
+    width:1700px;
+    /* margin-top:5px;} */ 
+    margin-top:-20px;}
 
+/* resume button */
 .resume {font-family: 'Poppins', sans-serif;
-font-size:3em;
-margin-left: 500px;
-margin-top: -70px;
-color:white;
-animation: color 10s linear infinite;
--webkit-animation:color 10s linear infinite;}
+        font-size:3em;
+        margin-left: 950px;
+        margin-top: -70px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
 
 .resume:hover {animation: bounce 2s;
-        -webkit-animation: bounce 2s;}
+            -webkit-animation: bounce 2s;}
 
+/* work button */
 .work {font-family: 'Poppins', sans-serif;
-font-size:3em; 
-margin-left: 950px;
-margin-top:-70px;
-color:white;
-animation: color 10s linear infinite;
--webkit-animation:color 10s linear infinite;}
+        font-size:3em; 
+        margin-left: 1350px;
+        margin-top:-70px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
 
 .work:hover {animation: bounce 2s;
-    -webkit-animation: bounce 2s;}
+            -webkit-animation: bounce 2s;}
 
+/* home page button */
 .home {font-family: 'Poppins', sans-serif;
-font-size:3em;
-margin-left: 1350px;
-margin-top:-70px;
-color:white;
-animation: color 10s linear infinite;
--webkit-animation:color 10s linear infinite;}
+        font-size:3em;
+        margin-left: 70px;
+        margin-top:10px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
 
 .home:hover {animation: bounce 2s;
-    -webkit-animation: bounce 2s;}
+            -webkit-animation: bounce 2s;}
 
+/* about me button */
 .aboutme {font-family: 'Poppins', sans-serif;
-font-size:3em;
-margin-left: 70px;
-margin-top:10px;
-color:white;
-animation: color 10s linear infinite;
--webkit-animation:color 10s linear infinite;}
+        font-size:3em;
+        margin-left: 500px;
+        margin-top:-70px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
 
 .aboutme:hover {animation: bounce 2s;
-        -webkit-animation: bounce 2s;}
+            -webkit-animation: bounce 2s;}
 
+/* contact me form */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
 width: 100%; /* Full width */

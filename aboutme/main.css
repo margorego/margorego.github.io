@@ -1,103 +1,158 @@
-.container {display:grid;
-    grid-template-areas: 
-    /* "p p p p p p p p p p p p" */
-    "i i i i h h h h h h h h"
-    "i i i i c c c c c c c c"
-    "f f f f f f f f f f f f";
-    background-color: white;}
+ /* .container {display:grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-template-rows: 40px auto 40px;}  */
 
-.image {grid-area: i;
-/* background-color: aqua;  */
-height:900px;
-width:800px;}
+.animation {grid-column: 1/-1;
+            grid-row: 1/-1;
+            width:100%;
+            height: 400px;}
 
-/* .picture {grid-area: p;
-          height:200px;
-          width:1700px;} */
+.content {
+        font-family: 'Poppins', sans-serif;
+        font-weight:lighter;
+        grid-column: 4/-1;
+        grid-row: 1/-1;
+        width: 50%;
+        margin-left: 700px;}
 
-svg {height:200px;
-    width:1700px;}
+.footer {background-color: rgb(129, 165, 199);
+        /* width:100%; */
+        grid-row: 3/-1;
+        margin-top: 100px;}
+ 
+p {font-family: roboto;}
 
-.footer {grid-area: f;
- background-color: rgb(129, 165, 199);
- height: 100px;
- width:1700px;}
 
-.content {grid-area: c;
-  /* background-color: bisque;     */
-  height:400px;
-  width:600px;
-  font-family: 'Poppins', sans-serif;
-  font-weight:lighter;
-  /* font-family: 'Roboto', sans-serif; */
-  margin-right:600px;
-  margin-top:-200px;}
 
-.header {grid-area: h;
-height:200px;
-font-family: 'Poppins', sans-serif;
-font-size: 5em;
- /* background-color:pink;   */
-margin-top:200px;
-width:600px;}
+img {width:40%;
+    height:100%;
+    margin-top:-400px;
+    grid-column: 1/-1;
+    grid-row: 2/-1;} 
 
-.one {margin-left:60px;
-margin-top:40px;
-animation: color 10s linear infinite;
--webkit-animation:color 10s linear infinite;}
-
-.one:hover {animation: bounce 2s;
-    -webkit-animation: bounce 2s;}
-
-.two {margin-left: 50px;}
-
-img {width:800px;
-height:500px;
-margin-left:20px;}
-
-.three {margin-top: 250px;
-        width:800px;}
-
+/*  resume button */
 .resume {font-family: 'Poppins', sans-serif;
-font-size:3em;
-padding-left: 500px;
-margin-top:15px;
-color:white;
-animation: color 10s linear infinite;
--webkit-animation:color 10s linear infinite;}
+        font-size:3em;
+        padding-left: 500px;
+        margin-top:15px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;
+        text-decoration: none;}
 
 .resume:hover {animation: bounce 2s;
-         -webkit-animation: bounce 2s;}
+         -webkit-animation: bounce 2s;
+         text-decoration: none;}
 
+/* work button */
 .work {font-family: 'Poppins', sans-serif;
-font-size:3em; 
-margin-left: 850px;
-margin-top:-70px;
-color:white;
-animation: color 10s linear infinite;
--webkit-animation:color 10s linear infinite;}
-
-.work:hover {animation: bounce 2s;
-        -webkit-animation: bounce 2s;}
-
-.contactme {font-family: 'Poppins', sans-serif;
-    font-size:3em;
-    margin-left: 1250px;
-    margin-top:-70px;
-    color:white;
-    animation: color 10s linear infinite;
-    -webkit-animation:color 10s linear infinite;}
-
-.contactme:hover {animation: bounce 2s;
-          -webkit-animation: bounce 2s;}
-
-.home {font-family: 'Poppins', sans-serif;
-        font-size:3em;
-        margin-left: 130px;
+        font-size:3em; 
+        margin-left: 900px;
         margin-top:-70px;
         color:white;
         animation: color 10s linear infinite;
         -webkit-animation:color 10s linear infinite;}
 
+.work:hover {animation: bounce 2s;
+            -webkit-animation: bounce 2s;}
+
+/* contact me button */
+.contactme {font-family: 'Poppins', sans-serif;
+            font-size:3em;
+            margin-left: 1250px;
+            margin-top:-70px;
+            color:white;
+            animation: color 10s linear infinite;
+            -webkit-animation:color 10s linear infinite;}
+
+.contactme:hover {animation: bounce 2s;
+          -webkit-animation: bounce 2s;}
+
+/* home button */
+.home {font-family: 'Poppins', sans-serif;
+        font-size:3em;
+        margin-left: 130px;
+        margin-top:-75px;
+        color:white;
+        animation: color 10s linear infinite;
+        -webkit-animation:color 10s linear infinite;}
+
 .home:hover {animation: bounce 2s;
-    -webkit-animation: bounce 2s;}
+            -webkit-animation: bounce 2s;}
+
+/* ANIMATION */
+#one {
+    -webkit-animation-name: flash;
+    animation-delay: 4s;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode:forwards;
+    -webkit-animation-timing-function:steps(1, end);
+    margin-top:-845px;
+    width:1700px;
+    height:900px;
+}
+
+#two {
+-webkit-animation-name: flash;
+-webkit-animation-duration: 12s;
+animation-delay: 2s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: normal;
+-webkit-animation-fill-mode:forwards;
+-webkit-animation-timing-function:steps(1, end);
+margin-top:-845px;
+width:1700px;
+height:900px;
+}
+
+#three {
+-webkit-animation-name: flash;
+-webkit-animation-duration: 12s;
+animation-delay: 3s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: normal;
+-webkit-animation-fill-mode:forwards;
+-webkit-animation-timing-function:steps(1, end);
+margin-top:-845px;
+width:1700px;
+height:900px;
+}
+
+#four {
+-webkit-animation-name: flash;
+-webkit-animation-duration: 12s;
+animation-delay: 1s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: normal;
+-webkit-animation-fill-mode:forwards;
+-webkit-animation-timing-function:steps(1, end);
+margin-top:-845px;
+width:1700px;
+height:900px;
+}
+
+.border:nth-of-type(4) {fill:#C46A6A;
+        -webkit-animation-delay: 1s;}
+
+.border:nth-of-type(3) {fill:#DBB647;
+        z-index: -2;
+        -webkit-animation-delay: 2s;}
+
+.border:nth-of-type(2) {fill: #566D79;
+        z-index: -3;
+        -webkit-animation-delay: 3s}
+
+.border:nth-of-type(1)  {fill: #69A1A5;
+        z-index: -4;
+        -webkit-animation-delay: 4s}
+
+#one {-webkit-animation-delay: 1s;}
+
+#two {-webkit-animation-delay: 2s;}
+
+#three {-webkit-animation-delay: 3s;}
+
+#four {-webkit-animation-delay: 4s;}
+
